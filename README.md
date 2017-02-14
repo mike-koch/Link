@@ -1,3 +1,8 @@
+### :warning: This version of Link is designed for [Mods for HESK](https://gitlab.com/mike-koch/Mods-for-HESK). However, it can be used in any other project if you'd like :smiley_cat: :warning:
+
+##### Notable Differences between mike-koch/Link and apsdehal/Link:
+ - Exceptions thrown by a controller are not handled by Link in mike-koch/Link, allowing the use of a custom error/exception handler
+
 #Link
 A __minimal__ router for your php webapps and APIs that effortlessly links all your project. Its fast and to the point.
 
