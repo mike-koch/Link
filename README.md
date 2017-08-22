@@ -3,6 +3,7 @@
 ##### Notable Differences between mike-koch/Link and apsdehal/Link:
  - Exceptions thrown by a controller are not handled by Link in mike-koch/Link, allowing the use of a custom error/exception handler
  - Supports the use of `X-HTTP-Request-Override` header for servers that don't support all request types
+ - Routes can be configured to only accept certain request methods (a 405 is returned when calling a route with an unsupported request method)
 
 #Link
 A __minimal__ router for your php webapps and APIs that effortlessly links all your project. Its fast and to the point.
